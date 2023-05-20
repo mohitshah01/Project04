@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+}
+.container{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.navbar-container{
+    max-height: 20vh;
+    
+}
+.navbar-container div img{
+    width: 100px;
+}
+.grow-list{
+    
+}
+.list{
+    position: absolute;
+    top: -15px;
+    left: 150px;    
+}
+.list-item{
+    display: inline-block;
+    padding: 20px;
+    color: #b2adad;
+}
+li:first-child{
+    color: black;
+}
+.button-group{
+    position: absolute;
+    top: -8px;
+    right:100px;
+}
+.nav-button{
+    padding: 15px 30px;
+    background-color: #5858b9;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* Banner */
+
+.banner-container{
+    max-height: 80vh;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* text left */
+
+.heading-text{
+    position: absolute;
+    top: 120px;
+    font-size: 60px;
+    max-width: 450px;
+    line-height: 1.2;
+    color: #2b2b60;
+    font-weight: 600;
+}
+.heading-text span{
+    color: #5858b9;
+}
+.description{
+    position: absolute;
+    top: 365px;
+    color: #b2adad;
+    max-width: 409px;
+}
+.nav-button{
+
+}
+.btn{
+    position: absolute;
+    top: 470px;
+    padding: 20px 40px;
+}
+
+/* text right */
+
+.banner-container div img{
+    width: 800px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
